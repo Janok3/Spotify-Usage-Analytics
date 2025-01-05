@@ -19,3 +19,13 @@ There are APIs for both Spotify and Notion so that will most likely be how I exp
 
 In addition to the data from my task list, I might choose to use the academic calender for my university for a more general understanding.
 
+## Getting the Data
+### Spotify
+I first tried to use the spotify API to get my listening history but quickly realised that I could only access the last 50 songs I listened to. This would not be effective as I wanted an entire years worth of listening data. 
+
+After doing some more research, I figured out that I could download my data from Spotify's website which would give me all the data I needed so that is what I did.
+
+The listening history was located in the "StreamingHistory_music_0.json" file so I took that part and wrote a python script to read and parse that data.
+
+### Notion 
+Notion also allows users to download their data so that is what I did
