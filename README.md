@@ -49,7 +49,7 @@ I needed 2 things from the Notion task list:
 
 The name is not strictly necessary, but I still wanted to if I decided to do more detailed analysis.
 
-But the date needed some work as it wasn't as consistent as I needed it to be.
+The date needed some work as it wasn't as consistent as I needed it to be.
 
 Here are some examples of the different date formats:
 * March 22, 2024
@@ -57,4 +57,32 @@ Here are some examples of the different date formats:
 * March 11, 2024 23:59 (GMT+3)
 * May 11, 2024 15:00 (GMT+3) → 16:30
 
-I converted the dates into the same format as Spotify to keep things consistent
+I converted the dates into the same format as Spotify to keep things consistent.
+
+## Resulting Graphs
+### Task Amount vs Time Spent Listening to Music by Day:
+![day](https://github.com/user-attachments/assets/8d3be9cc-4bc4-4115-a564-6e5ee913429a)
+
+
+### Task Amount vs Time Spent Listening to Music by Week:
+![week](https://github.com/user-attachments/assets/09c81172-12bf-4a1c-8ca0-84a7b50fe42f)
+
+
+## Findings:
+There are a few things we need to keep in mind while examining the data to better understand it and draw a conclusion on whether or not my original hypothesis was correct.
+* The graph spans a year with one semester spanning from 15.02.2024 to 09.06.2024, summer break in between and the other semester spanning from 23.09.2024 to 10.01.2025 (The dataset only goes to 26.12.2024)
+* The midterm exams start at around 6-7 weeks into the semester.
+
+### Graph with Neccesary Markings:
+![week With Markings](https://github.com/user-attachments/assets/96ce26b1-9d6a-48ff-b311-2f739d287298)
+
+### Observations:
+On the graph we can see that the amount of tasks are in an upword trend as the semester progresses. Meanwhile, the amount of time spent listening to music is on a downword trend during the same time. 
+During the beginning of the semesters is when I listened to the most amount of music, this is because I did not feel the need to skip any classes to focus on schoolwork. However, as the semester progresses and the amount of work from exams, more difficult homeworks and term project increase; I start to listen to less music since I don't going to school the same amount and also I use the time during my commute to read up on the course material rather than listen to music to better prepeare for my exams. 
+All of these observations give confidence to my original hypthesis being true. However, it is important to keep in mind that there are some limitations of this analysis.
+
+## Limitations and Future Work
+### Limitations:
+The biggest limitation in this project was the dataset. For the quesiton I am trying to answer, a larger dataset consisting of a wider variaty of data would help strengthen the confidence in the answer to the hypothesis even further. For instance, if I could access the payment history of my student card; I would be able to see when I used the shuttle service provided by my university.
+### Future Work:
+Using more complex data analysis methods and/or machine learning algorithms, along with the previously mentioned bigger dataset, could help us draw stronger conclusions from this analysis.
